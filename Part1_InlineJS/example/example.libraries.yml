@@ -1,0 +1,19 @@
+example-static-js:
+  version: 1.x
+  js:
+    js/inline_static.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    
+example-dynamic-js:
+  version: 1.x
+  js:
+    js/inline_dynamic.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/drupalSettings    
+    
+    
+    

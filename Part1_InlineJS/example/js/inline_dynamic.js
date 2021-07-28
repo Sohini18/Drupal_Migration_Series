@@ -1,0 +1,1 @@
+jQuery(document).ready(function () { console.log(drupalSettings.example.exampleDynamicJs.user); });

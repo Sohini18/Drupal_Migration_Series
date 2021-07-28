@@ -1,0 +1,8 @@
+example.demo_form:
+  path: '/demo-form'
+  defaults:
+    _title: 'Demo form'
+    _form: '\Drupal\example\Form\ExampleForm'
+  requirements:
+    access: true
+    
